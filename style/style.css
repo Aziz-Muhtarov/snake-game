@@ -1,0 +1,30 @@
+/* canvas {
+    display: block;
+    margin: 0 auto;
+    background-color: #b16868;
+} */
+
+* {
+    background-color: #CDC1C5;
+}
+
+
+
+#infoContainer {
+    
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 100px;
+}
+
+#gameTable {
+    margin: 0 auto;
+    border-collapse:collapse;
+}
+
+#gameTable td {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000000;
+}
