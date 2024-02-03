@@ -1,7 +1,10 @@
 export default class Snake {
     constructor() {
-        this.segments = [{ x: 0, y: 0 }];
-        this.direction = 'right';
+        
+    }
+
+    sayHi() {
+        alert(this.name);
     }
 
     move() {
